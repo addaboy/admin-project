@@ -1,7 +1,7 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 // import SignUp from './Authenticate/SignUp'
 import SignIn from './Authenticate/SignIn'
-import Register from './pages/Register'
+import Register from './Register'
 import './App.css'
 
 import Home from './Components/Home'
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path='./Authenticate/SignIn.jsx' element={<SignIn />} />
-        <Route path='./pages/Register.jsx' element={<Register />} />
+        <Route path='./Register.jsx' element={<Register />} />
       </Routes>
     </BrowserRouter>
     
